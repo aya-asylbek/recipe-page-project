@@ -2,7 +2,7 @@ body {
     font-family: 'Press Start P', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: hsla(182, 33%, 79%, 0.929);
+    background-color: hsla(225, 33%, 79%, 0.929);
     color: #333;
 }
 
@@ -19,11 +19,11 @@ body {
 }
 
 .left h1 {
-    color: #2c2f50;
+    color: #030a57;
 }
 
 .ingredients h2, .instructions h2, .links h2, .youtube-video h3 {
-    color: #040c11;
+    color: #110406;
 }
 
 .image-section img {
@@ -39,10 +39,10 @@ body {
 
 a {
     color: #04021a;
-    text-decoration: none;
+    text-decoration: blue;
 }
 
 a:hover {
-    background-color: #1abc9c; 
+    background-color: #0ac6d4; 
     color: #fff; 
 }
