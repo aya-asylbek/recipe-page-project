@@ -13,10 +13,15 @@ body {
     padding: 20px;
 }
 
-.left, .right {
-    margin: 20px;
-    max-width: 600px;
-}
+.left {
+    width: 600px;
+    float: left;  
+    margin-right: 30px; 
+
+.right {
+    width: 600px; 
+    float: left;  
+    margin-left: 30px; 
 
 .left h1 {
     color: #030a57;
@@ -26,7 +31,7 @@ body {
     color: #110406;
 }
 
-.description{
+.description {
     max-width: 600px;
     border-radius: 5px;
 }
@@ -35,7 +40,6 @@ body {
     font-size: 14px;
     color: #b11717;
 }
-
 
 a {
     color: #04021a;
