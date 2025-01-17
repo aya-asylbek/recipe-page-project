@@ -3,7 +3,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: hsla(225, 33%, 79%, 0.929);
-    color: #333;
+    color: #333333;
 }
 
 .wrapper {
@@ -26,8 +26,8 @@ body {
     color: #110406;
 }
 
-.image-section img {
-    max-width: 100%;
+.description{
+    max-width: 600px;
     border-radius: 5px;
 }
 
