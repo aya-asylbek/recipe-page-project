@@ -39,7 +39,7 @@ body {
 
 a {
     color: #04021a;
-    text-decoration: blue;
+    text-decoration: underline;
 }
 
 a:hover {
