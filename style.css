@@ -1,0 +1,52 @@
+body {
+    font-family: 'Press Start P', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: hsla(225, 33%, 79%, 0.929);
+    color: #333333;
+}
+
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+.left {
+    width: 600px;
+    float: left;  
+    margin-right: 30px; 
+
+.right {
+    width: 600px; 
+    float: left;  
+    margin-left: 30px; 
+
+.left h1 {
+    color: #030a57;
+}
+
+.ingredients h2, .instructions h2, .links h2, .youtube-video h3 {
+    color: #110406;
+}
+
+.description {
+    max-width: 600px;
+    border-radius: 5px;
+}
+
+.nutrition {
+    font-size: 14px;
+    color: #b11717;
+}
+
+a {
+    color: #04021a;
+    text-decoration: underline;
+}
+
+a:hover {
+    background-color: #0ac6d4; 
+    color: #fff; 
+}
