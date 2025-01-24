@@ -3,6 +3,8 @@ newListItem.textContent = 'Eggplant';
 let ingredientsList = document.querySelector('.ingredients ul');
 ingredientsList.appendChild(newListItem);
 
+
+
 //const myDiv = document.getElementById("myDiv");
 //let checkbox = document.createElement("input")
     //checkbox.type = "checkbox";
@@ -34,5 +36,13 @@ document.addEventListener('DOMContentLoaded', function () {
         item.textContent = '';
         item.appendChild(checkbox);
         item.appendChild(label);
+
+        checkbox.addEventListener('change', function () {
+            if (checkbox.checked) {
+                item.classList.add('checked'); 
+            } else {
+                item.classList.remove('checked');
+            }
+        });
     });
 });
