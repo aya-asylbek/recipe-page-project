@@ -39,9 +39,9 @@ document.addEventListener('DOMContentLoaded', function () {
 
         checkbox.addEventListener('change', function () {
             if (checkbox.checked) {
-                item.classList.add('checked'); 
+                label.classList.add('checked'); 
             } else {
-                item.classList.remove('checked');
+                label.classList.remove('checked');
             }
         });
     });
