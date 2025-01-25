@@ -39,7 +39,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
         checkbox.addEventListener('change', function () {
             if (checkbox.checked) {
-                label.classList.add('checked'); 
+               label.classList.add('checked'); 
             } else {
                 label.classList.remove('checked');
             }
